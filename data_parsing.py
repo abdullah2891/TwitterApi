@@ -19,4 +19,6 @@ for line in tweets_file:
 
 
 print len(tweets_data)
-print lang[0]["user"]["description"]
+
+for l in lang:
+    print l["user"]["location"]
